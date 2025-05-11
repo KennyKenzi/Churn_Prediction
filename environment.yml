@@ -1,0 +1,9 @@
+name: datasci
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+prefix: /Users/kennyay/anaconda3/envs/datasci
