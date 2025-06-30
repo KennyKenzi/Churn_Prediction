@@ -6,4 +6,7 @@ channels:
 dependencies:
   - numpy
   - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
 prefix: /Users/kennyay/anaconda3/envs/datasci
