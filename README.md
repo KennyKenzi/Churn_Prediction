@@ -1,6 +1,13 @@
 # Project: Customer Churn Prediction
 A supervised machine learning project using real-world telco data to predict customer churn.
 
+## 🚧 Status
+
+**Work in Progress** – Model trained and evaluated. Next steps:
+- Feature importance interpretation
+- Deployment-ready cleanup
+
+
 ## 🔍 Project Overview
 
 - **Problem Type:** Binary classification (Churn vs No Churn)
@@ -22,9 +29,9 @@ A supervised machine learning project using real-world telco data to predict cus
    - Feature scaling (StandardScaler)
 
 3. **Modeling**
-   - Logistic Regression
-   - Random Forest
-   - XGBoost Classifier
+   - Logistic Regression (AUC: 0.841)
+   - Random Forest (AUC: 0.843)
+   - XGBoost Classifier (AUC: 0.847)
    - Hyperparameter tuning (RandomizedSearchCV)
 
 4. **Evaluation**
@@ -34,8 +41,3 @@ A supervised machine learning project using real-world telco data to predict cus
    - Feature importance interpretation
     
 
-## 🚧 Status
-
-**Work in Progress** – Model trained and evaluated. Next steps:
-- Feature importance interpretation
-- Deployment-ready cleanup
