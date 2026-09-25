@@ -33,6 +33,7 @@ A supervised machine learning project using real-world telco data to predict cus
    - Random Forest (AUC: 0.843)
    - XGBoost Classifier (AUC: 0.847)
    - Hyperparameter tuning (RandomizedSearchCV)
+Compared performance using AUC and Accuracy
 
 4. **Evaluation**
    - Accuracy, Precision, Recall, F1-score
